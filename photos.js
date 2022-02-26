@@ -26,8 +26,8 @@ function popUp(f,l) {
 	//adds spaces in between entries
 	if (f.properties) {
 		out.push("Site Name: " + f.properties.Name);
-    out.push("Notes: "+ f.properties.NotesNumber);
-//    out.push('<img src="https://i.postimg.cc/xC0sh031/60.png"> </img>');
+    //out.push("Notes: "+ f.properties.NotesNumber);
+		//out.push('<img src="https://i.postimg.cc/xC0sh031/60.png"> </img>');
     out.push("<a href='"+ f.properties.PostLink + "' target='_blank'><img src='" + f.properties.LocalLink + "' border='0' alt='60' width='100%'/></a>");
 		l.bindPopup(out.join("<br />"));
 	}
